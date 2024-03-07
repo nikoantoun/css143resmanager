@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RestaurantReservation
+comment0.text=\n\ The\ RestaurantReservation\ class\ extends\ the\ Reservation\ class.\ This\ \n\ implements\ some\ slight\ differneces\ to\ tell\ what\ is\ either\ a\ restaurant\n\ reservation\ and\ what\ is\ a\ boat\ reservation.\ \n
+comment1.params=numSeatsNeeded\ startTime\ name
+comment1.target=RestaurantReservation(int,\ int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ Restaurant\ reservation\n
+comment2.params=
+comment2.target=int\ getSeatsNeeded()
+comment2.text=\n\ Method\ to\ get\ the\ number\ of\ seats\ needed\n\ @return\ seatsNeeded\ instance\ variable\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ toString\ method\ overrides\ the\ Reservation\ toString\ method.\ Modified\ for\n\ RestaurantReservation.\n\ @Override\ Reservation\ toString\ method\n\ @return\ form\ the\ output\ will\ be.\n
+numComments=4

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BoatDriver
+comment0.text=\n\ Driver\ for\ Boat\ Reservation\ system\n\ Reads\ input\ file\ and\ prints\ reservations\ to\ console\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

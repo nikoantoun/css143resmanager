@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BoatReservation
+comment0.text=\n\ The\ BoatReservation\ class\ extends\ the\ Reservation\ class.\ This\ implements\ \n\ some\ slight\ differneces\ to\ tell\ what\ is\ either\ a\ restaurant\ reservation\ and\n\ what\ is\ a\ boat\ reservation.\ BoatReservation\ adds\ the\ customer's\ boat\ \n\ preferneces,\ overrides\ the\ resource\ id\ to\ get\ the\ customer's\ highest\n\ prioritised\ boat,\ and\ adds\ all\ of\ the\ customer's\ preferred\ boats\ into\ an\n\ ArrayList\ in\ case\ there\ are\ no\ more\ items\ from\ the\ customer's\ first\n\ prioritised\ boat.\n
+comment1.params=timeslot\ name
+comment1.target=BoatReservation(int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ BoatReservation\n
+comment2.params=name
+comment2.target=void\ addBoatPreference(java.lang.String)
+comment2.text=\n\ Method\ adds\ the\ customer's\ boat\ preferneces\n\ @param\ name\ is\ the\ preferred\ boat's\ name\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getPreferences()
+comment3.text=\n\ Method\ gets\ and\ returns\ the\ boat\ preferences\ list\n\ @return\ the\ gathered\ boat\ preferneces\ list\n
+comment4.params=
+comment4.target=java.lang.String\ getResId()
+comment4.text=\n\ @Override\ the\ getResId\ method\ in\ the\ Reservation\ class\n\ This\ method\ is\ to\ output\ the\ prioritised\ boat\ name.\n\ @return\ the\ preffered\ boat\ name\n
+numComments=5

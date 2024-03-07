@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Reservation
+comment0.text=\n\ Class\ Reservation\ implements\ the\ Comparable\ interface\ to\ eventually\ sort\n\ the\ reservations\ by\ the\ customer's\ name,\ using\ the\ compareTo\ method.\ This\n\ class\ makes\ the\ customer\ able\ to\ reserve\ an\ item.\n
+comment1.params=customerName\ timeSlot
+comment1.target=Reservation(java.lang.String,\ int)
+comment1.text=\n\ Constructor\ to\ create\ reservation\n
+comment2.params=obj
+comment2.target=int\ compareTo(java.lang.Object)
+comment2.text=\n\ Method\ compares\ current\ reservation\ name\ and\ other\ reservation\ name\ to\n\ sort.\ Returns\ -1\ if\ letters\ in\ current\ customer's\ name\ comes\ before\ \n\ other\ customer's\ name.\ If\ the\ letters\ are\ after\ the\ current\ customer's\n\ name\ is\ after\ the\ other\ customer's\ name,\ returns\ 1.\ Else\ if\ the\n\ current\ letter\ being\ searched\ is\ the\ same,\ loop\ increments\ and\ checks\n\ second\ letter\ in\ both\ customer's\ name.\ This\ process\ will\ continue\ until\n\ the\ case\ of\ a\ letter's\ index\ is\ different\ from\ each\ other\ or\ if\ the\n\ current\ index\ being\ checked\ is\ the\ last\ letter\ of\ one\ or\ both\ names.\ If\n\ both\ of\ the\ customer's\ name\ length\ is\ the\ same\ and\ the\ last\ letters\ are\n\ the\ same,\ the\ names\ are\ the\ same\ and\ returns\ 0.\ Else,\ the\ customer's\n\ names\ must\ not\ be\ the\ same\ if\ one\ name\ is\ shorter\ than\ the\ other,\n\ and\ returns\ -1\ if\ current\ customer's\ name\ is\ shorter.\ And\ returns\ 1\n\ if\ the\ current\ customer's\ name\ is\ longer.\ A\ foundation\ return\ case\ \n\ returns\ 0\ if\ the\ loop\ is\ exited\ without\ returning\ any\ number\ for\ some\n\ reason,\ which\ also\ indicates\ that\ both\ names\ are\ the\ same.\n\ \n
+comment3.params=
+comment3.target=java.lang.String\ getCustomer()
+comment3.text=\n\ Method\ returns\ the\ customer's\ name.\n\ @return\ the\ name\ instance\ variable.\n
+comment4.params=
+comment4.target=int\ getTime()
+comment4.text=\n\ Method\ returns\ the\ time\ requested.\n\ @return\ time\ instance\ variable.\n
+comment5.params=resId
+comment5.target=void\ setResId(java.lang.String)
+comment5.text=\n\ Method\ sets\ the\ resource\ id\ instance\ var\n\ @param\ redId\ is\ the\ data\ passed\ in\n
+comment6.params=
+comment6.target=java.lang.String\ getResId()
+comment6.text=\n\ Method\ gets\ the\ resource\ id\n\ @return\ the\ id\ insvar\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Method\ returns\ the\ contents\ of\ the\ reservation.\n\ @return\ String\ for\ the\ reservation\ containing\ inst.\ vars\ name\ and\ time.\n
+numComments=8

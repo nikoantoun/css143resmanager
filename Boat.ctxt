@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Boat
+comment0.text=\n\ The\ Boat\ class\ extends\ the\ ReservableItem\ abstract\ class.\ This\ is\ where\n\ the\ differences\ in\ the\ reservable\ items\ are\ coded.\ Boat's\ purpose\n\ gets\ its\ own\ fitness\ value.\n
+comment1.params=fileIn
+comment1.target=Boat(java.util.Scanner)
+comment1.text=\n\ Class\ constructor\ for\ the\ Boat\ class\n
+comment2.params=res
+comment2.target=int\ getFitnessValue(Reservation)
+comment2.text=\n\ The\ method\ first\ checks\ if\ the\ Reservation\ parameter\ \n\ passed\ is\ null\ or\ not\ an\ instance\ of\ BoatReservation.\ It\ will\ return\ \n\ -999\ (a\ unique\ odd\ number)\ to\ indicate\ that\ the\ parameter\ is\ bad.\ If\ \n\ it\ passes\ the\ first\ condition,\ the\ Reservation\ is\ converted\ to\ a\ \n\ BoatReservation\ and\ is\ checked\ with\ the\ Reservations\ existing\ \n\ reservations.\ If\ there\ is\ a\ time-slot\ that\ is\ taken\ (not\ null),\ the\n\ method\ returns\ -1.\ A\ String\ ArrayList\ is\ then\ created\ and\ is\ filled\n\ of\ boat\ preferences\ from\ the\ person\ reserving.\ The\ list\ is\ traversed\n\ until\ a\ prefernece\ returns\ the\ index\ of\ the\ boat\ prefernece.\n\ @Override\ the\ getFitnessValue\ abstract\ method\ from\ the\ ReservableItem\n\ \ abstract\ class.\n\ @param\ res\ is\ the\ Reservation\ object\ that's\ fitness\ value\ is\ good\ or\n\ \ not.\n\ @return\ -999\ if\ null\ or\ not\ an\ instance\n\ @return\ -1\ if\ the\ timeslot\ is\ unavailable\ or\ if\ the\ reservation\ is\n\ \ not\ a\ good\ fit.\n\ @return\ fitness\ score\ (boat\ preference\ index)\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ toString\ method\ overrides\ the\ toString\ method.\ Modified\ for\n\ BoatReservation.\n\ @Override\ toString()\ method.\n\ @return\ the\ form\ of\ the\ output.\n
+numComments=4

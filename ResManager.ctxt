@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ResManager
+comment0.text=\n\ The\ ResManager\ class\ uses\ generics\ to\ code\ each\ type\ of\ reservation\ that\n\ will\ either\ be\ RestaurantReservation\ or\ BoatReservation.\ This\ class\ holds\n\ two\ java.util\ ArrayLists\ that\ are\ generic\ ItemType\ and\ ResType.\ ResManager\n\ is\ the\ most\ important\ class\ in\ this\ project\ because\ this\ is\ where\ every\n\ reservation\ is\ (or\ attempted\ to\ be)\ created\ and\ sorted\ with\ one\ another.\n
+comment1.params=
+comment1.target=ResManager()
+comment1.text=\n\ No-arg\ constructor\ for\ ResManager\n
+comment2.params=item
+comment2.target=void\ addReservable(ReservableItem)
+comment2.text=\n\ Adds\ a\ new\ reservableItem\ to\ the\ available\ item\ up\ for\ reservation\n\ @param\ item\ is\ an\ item\ that\ is\ added\ from\ the\ txt\ file\n
+comment3.params=trialRes
+comment3.target=Reservation\ makeReservation(Reservation)
+comment3.text=\n\ Method\ to\ make\ a\ reservation.\ Tries\ to\ make\ a\ succesful\ reservation\n\ by\ first\ checking\ if\ the\ size\ of\ the\ bookedres\ list\ is\ already\ at\ 10.\n\ If\ the\ list\ is\ already\ at\ 10,\ an\ exception\ is\ thrown\ and\ the\ try\ block\n\ fails.\ Else,\ the\ method\ gets\ the\ fitness\ value\ and\ the\ list\ index\ of\ \n\ the\ best\ fitness\ value\ while\ traversing\ through\ the\ itemtype\ list.\n\ The\ index\ of\ the\ best\ fitness\ value\ is\ set\ to\ the\ iteration\ of\ the\n\ for-loop.\ Afterwards,\ if\ the\ best\ fitness\ value\ is\ over\ zero,\ the\n\ reservable\ item\ is\ added\ to\ the\ reserved\ list\ and\ the\ resource\ id\ is\ \n\ set.\ If\ the\ fitness\ value\ is\ below\ zero,\ the\ return\ value\ is\ set\ to\n\ null\ and\ an\ exception\ is\ thrown\ to\ fail\ the\ try\ block.\ If\ the\ try\ block\n\ fails\ anywhere\ in\ the\ method,\ the\ catch\ block\ is\ executed\ and\ the\ \n\ customer's\ name\ is\ printed\ regardless\ of\ what\ type\ the\ reservation\ is.\n\ Then,\ if\ the\ failed\ reservation\ is\ an\ instance\ of\ \n\ RestaurantReservation,\ the\ time,\ id\ (should\ be\ customer),\ and\ the\n\ number\ of\ seats.\ If\ it\ is\ a\ BoatReservation,\ only\ the\ time\ will\ be\ \n\ outputted.\ The\ return\ value\ will\ become\ null.\n\ @param\ trialRes\ is\ the\ reservation\ attempting\ to\ be\ booked\n\ @return\ the\ reservation\ if\ is\ a\ good\ fit\ and\ can\ be\ fit\ in\ to\ schedule\n\ @return\ null\ if\ try\ block\ fails\n
+comment4.params=
+comment4.target=void\ sortReservations()
+comment4.text=\ Bubble\ sort\ method...\n\ Method\ uses\ two\ for-loops\ to\ sort\ the\ reservations\ by\ customer's\ name.\n\ The\ nested\ for-loop's\ index\ corresponds\ to\ the\ outer\ for-loop's\ index\n\ and\ then\ checks\ one\ reservation\ with\ another\ by\ using\ the\ compareTo\n\ method\ that\ was\ implemented\ from\ the\ Comparable\ interface\ in\ the\n\ Reservation\ class.\ A\ temp\ ResType\ variable\ is\ created\ to\ hold\ the\ first\n\ reservation\ in\ the\ bookedReservations\ list.\ This\ is\ a\ good\ example\ of\ \n\ bookkeeping.\ The\ other\ reservation\ is\ set\ to\ the\ first\ reservation's\n\ spot\ in\ the\ list,\ and\ then\ the\ first\ reservation\ (held\ by\ temp)\ is\ \n\ moved\ to\ the\ spot\ where\ the\ other\ reservation\ was.\ These\ actions\ are\n\ executed\ until\ all\ of\ the\ reservations\ have\ been\ checked\ and\ sorted.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ toString\ method\ that\ prints\ out\ all\ of\ the\ results\ of\ the\ reservations\n\ @return\ each\ and\ every\ booked\ reservation\n
+numComments=6
